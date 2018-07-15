@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+    <title>WebRTC Video | SHYAM SINGH</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper purple">
+                <a href="../index.html" class="brand-logo hide-on-small-only" style="margin-left:1%;font-family: Courier New">SHYAM SINGH</a>
+                <a href="../index.html" class="brand-logo hide-on-med-and-up" style="margin-left:1%;font-family: Courier New">SHYAM</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="../blogs.html">Blogs</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li class="active"><a href="projects.html">Projects</a></li>
+        <li><a href="../blogs.html">Blogs</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    
+    <div class="row">
+        <div class="col m12 s12">
+            <div class="card white">
+                <div class="card-content">
+                    <a href="projects.html" style="float:right" class="btn-flat waves-effect blue darken-3 white-text">Back</a>
+                    <span class="card-title">WebRTC Video Calling  <a href="https://github.com/singhshyam473/webrtc-calling" target="_blank" class="chip">View on GitHub</a></span>
+                    <div class="row">
+                        <div class="col m4 s12">
+                            <h5>Description</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                <a href="https://webrtc.org/" target="_blank">WebRTC (Web RealTime Communication)</a> allows browsers to communicate directly with each other
+                                without the overhead of using a server. This project demonstrates how a simple peer-to-peer video 
+                                calling application can be built using WebRTC for peer-to-peer connection and transmission while using
+                                <a href="https://socket.io/" target="_blank">Socket.io</a>-<a href="https://nodejs.org/en/" target="_blank">Node.js</a> for signalling mechansim. By doing this we can eliminate the need of a dedicated media server.
+                            </p>
+                            <h5>Features</h5>
+                            <ul>
+                                <li>1. Option to enable/disable audio.</li>
+                                <li>2. Option to enable/disable video.</li>
+                                <li>3. Toggle fullscreen.</li>
+                            </ul>
+                        </div>
+                        <div class="col m4 s12">
+                            <center>
+                                <img class="responsive-img" src="../img/html-css-js.jpeg" alt="" width="200px" height="150vh"><br>
+                                <img class="responsive-img" src="../img/webrtc.jpg" alt="" width="200px" height="150vh"><br>
+                                <img class="responsive-img" src="../img/node.png" alt="" width="200px" height="150vh"><br>
+                                <img class="responsive-img" src="../img/node-socket.png" alt="" width="200px" height="150vh"><br>
+                            </center>
+                        </div>
+                        <div class="col m4 s12">
+                            <h5>Role & Contribution</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                I was the sole developer of the project. The entire project with all the mentioned features was developed by me.
+                            </p>
+                            <h5>Learning Experience</h5>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                The project was very challenging at the beginning as WebRTC was totally a new concept for me.
+                                I had to go through a lot of blogs and videos to understand the working of WebRTC. Once I understood WebRTC,
+                                the next challenge was implementing it.
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                I first went through a lot of tutorials available online but these were either too outdated or
+                                too difficult to grasp through. Finally, I began searching on GitHub for example codes and <a href="https://github.com/agilityfeat/webrtc-audio-demo" target="_blank">this</a> project
+                                came as a blessing. It was well coded and easy to understand and gave me a headstart.
+                            </p><br>
+                            <p style="text-align: justify; text-justify: inter-word;">
+                                Though not an expert, now I know what WebRTC is and how to implement it.
+                            </p>
+                            <br><a href="projects.html" style="float:right" class="btn-flat waves-effect blue darken-4 white-text">Back</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l12">
+                                <p style="text-align: justify; text-justify: inter-word;">
+                                    <i>All logos, trademarks and registered trademarks are the property of their respective owners.</i>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="./projects.js"></script>
+</body>
+</html>

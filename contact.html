@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="projects/projects.css">
+    <title>Contact | Shyam singh</title>
+</head>
+<body style="background-color: blueviolet">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper purple">
+                <a href="index.html" class="brand-logo hide-on-small-only" style="margin-left:1%;font-family: Courier New">SHYAM SINGH</a>
+                <a href="index.html" class="brand-logo hide-on-med-and-up" style="margin-left:1%;font-family: Courier New">SHYAM</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects/projects.html">Projects</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects/projects.html">Projects</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+    </ul>
+    
+    <div class="row">
+        <div class="col l3"></div>
+        <div class="col l6 m12 s12">
+            <div class="card white">
+                <div class="card-content">
+                    <center>
+                        <span class="card-title">Contact Details</span>          
+                        <ul class="collection">
+                            <li class="collection-item" style="margin:2%">
+                                <img class="responsive-img" src="images/phone.png" alt="" height="50px" width="50px">
+                                <img class="responsive-img" src="images/message.png" alt="" height="50px" width="50px">
+                                <img class="responsive-img" src="images/whatsapp.png" alt="" height="50px" width="50px">
+                                <img class="responsive-img" src="images/telegram.png" alt="" height="50px" width="50px"><br><br>
+                                +91 96190 77062
+                            </li>
+                            <li class="collection-item" style="margin:2%">
+                                <img class="responsive-img" src="images/mail.png" alt="" height="50px" width="50px"><br><br>
+                                <a href="mailto:singhshyam473@gmail.com">singhshyam473@gmail.com</a>
+                            </li>
+                            <li class="collection-item" style="margin:2%">
+                                <a href="https://github.com/singhshyam473" target="_blank"><img class="responsive-img" src="images/github.png" alt="" height="50px" width="50px"></a>
+                                <a href="https://www.linkedin.com/in/shyam-singh-01aab3125/" target="_blank"><img class="responsive-img" src="images/linkedin.png" alt="" height="50px" width="50px"></a>
+                                <a href="https://twitter.com/singhshyam7007" target="_blank"><img class="responsive-img" src="images/twitter.png" alt="" height="50px" width="50px"></a>
+                                <a href="https://www.quora.com/profile/singhshyam473" target="_blank"><img class="responsive-img" src="images/quora.png" alt="" height="50px" width="50px"></a>
+                            </li>
+                        </ul>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="col l3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav({draggable:true});
+        });
+    </script>
+</body>
+</html>
